@@ -75,7 +75,10 @@ class QuestionController extends Controller
      */
     public function update(Request $request, Question $question)
     {
-        //
+        $input = $request->all();
+        $input['slug'] = $request->title;
+        $question->update($input);
+        return response('Update', Response::HTTP_ACCEPTED);
     }
 
     /**
