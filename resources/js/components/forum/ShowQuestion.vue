@@ -9,7 +9,7 @@
         <v-list-item-subtitle>{{ data.user }} said {{ data.created_at }}</v-list-item-subtitle>
       </v-list-item-content>
 
-      <v-btn color="teal">5 Replies</v-btn>
+      <v-btn color="teal" dark>{{ data.reply_count }} Replies</v-btn>
     </v-list-item>
 
     <v-card-text v-html="body" class="text--primary"></v-card-text>

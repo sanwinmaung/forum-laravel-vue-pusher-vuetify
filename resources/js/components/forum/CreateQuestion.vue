@@ -20,7 +20,7 @@
             <vue-simplemde v-model="form.body" ref="markdownEditor" />
 
 			<v-btn
-			color="green"
+			color="teal"
 			type="submit"
 			>
 			Submit

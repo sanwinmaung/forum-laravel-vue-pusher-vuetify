@@ -33,7 +33,7 @@
 			></v-text-field>
 
 			<v-btn
-			color="green"
+			color="teal"
 			type="submit"
 			>
 			Signup
