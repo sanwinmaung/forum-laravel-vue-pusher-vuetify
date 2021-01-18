@@ -27,6 +27,8 @@ $ npm run watch
 
 For database run ...
 
+create database 'spa_form'
+
 import spa_forum.sql in your database (or)
 ```sh
 $ php artisan migrate
